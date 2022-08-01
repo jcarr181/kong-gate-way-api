@@ -44,6 +44,7 @@ components:
             Date: 
                 type: string
                 format: date-time
+        additionalProperties: false
   securitySchemes:
     apiKey:
       type: apiKey
