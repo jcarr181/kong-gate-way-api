@@ -44,9 +44,7 @@ components:
             Date: 
                 type: string
                 format: date-time
-        aditionalProperties: false
-
-    securitySchemes:
+  securitySchemes:
     apiKey:
       type: apiKey
       name: X-API-KEY
