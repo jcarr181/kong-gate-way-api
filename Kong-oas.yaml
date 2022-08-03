@@ -10,6 +10,8 @@ info:
 servers:
 - url: https://localhost:44337
   description: Local environment
+- url: http://localhost:8000/KongGateway
+  description: Kong GateWay environment - Docker
 tags:
   - name: WeatherForecast
 paths:

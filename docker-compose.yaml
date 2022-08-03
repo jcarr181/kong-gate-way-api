@@ -1,0 +1,12 @@
+version: '3.7'
+services: 
+    dcservice:
+        container_name: KongGateWayApi
+        build: 
+            context: ./KongGateWayApi
+            dockerfile: dockerfile
+        ports: 
+          - "7001:7001"
+networks: 
+  default:
+    name: kong-net
