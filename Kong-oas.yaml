@@ -15,7 +15,7 @@ servers:
 tags:
   - name: WeatherForecast
 paths:
-  "/WeatherForecast":
+  "/WeatherForecast/GetTemp":
     get:
       tags: 
         - WeatherForecast
